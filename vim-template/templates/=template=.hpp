@@ -1,10 +1,3 @@
-/*
- * %FFILE%
- * Copyright (C) %YEAR% %USER% <%MAIL%>
- *
- * Distributed under terms of the %LICENSE% license.
- */
-
 #ifndef _%GUARD%_
 #define _%GUARD%_
 
@@ -19,19 +12,25 @@
   ===========================================================================*/
 
 /*===========================================================================
-  Header files
+        INCLUDE FILES
   ===========================================================================*/
 #include "%FILE%.h"
 
 namespace %NAMESPACE% {
 
 /*===========================================================================
-  Class
+        CLASS DECLARATIONS
   ===========================================================================*/
 class %CLASSNAME% {
 public:
     %CLASSNAME%();
     ~%CLASSNAME%();
+/*!
+    @brief
+    @param a
+    @return
+*/
+    int foo(int a);
 
 protected:
 

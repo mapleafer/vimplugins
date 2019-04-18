@@ -1,17 +1,36 @@
-/*
- * %FFILE%
- * Copyright (C) %YEAR% %USER% <%MAIL%>
- *
- * Distributed under terms of the %LICENSE% license.
+/*!
+  %FFILE%
+  Copyright (C) %YEAR% %USER% <%MAIL%>
+
+  Distributed under terms of the %LICENSE% license.
  */
 
-#include "%FILE%.h"
+/*======================================================================
+        INCLUDE FILES
+  ======================================================================*/
+#include "%FILE%.hpp"
 
-%CLASS%
-%USER%
-%EMAIL%
-%LICENSE%
-%NAMESPACE_DECL_START%
-%NAMESPACE_DECL_END%
+namespace %NAMESPACE% {
+
+/*======================================================================
+        LOCAL VARIABLES
+  ======================================================================*/
+
+
+/*======================================================================
+        LOCAL FUNCTIONS
+  ======================================================================*/
+
+
+/*======================================================================
+        CLASS FUNCTIONS
+  ======================================================================*/
+%CLASSNAME%::%CLASSNAME%()
+{
+}
+
+%CLASSNAME%::~%CLASSNAME%()
+{
+}
 %HERE%
-
+}
