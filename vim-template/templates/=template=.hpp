@@ -24,10 +24,12 @@ class %CLASSNAME% {
 public:
     %CLASSNAME%();
     ~%CLASSNAME%();
+//-----------------------------------------------
 /*!
     @brief
     @param a
     @return
+        @retval
 */
 //    int foo(int a);
 
