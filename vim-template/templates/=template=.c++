@@ -29,6 +29,7 @@ namespace %NAMESPACE% {
 {
 }
 
+//-----------------------------------------------
 %CLASSNAME%::~%CLASSNAME%()
 {
 }
